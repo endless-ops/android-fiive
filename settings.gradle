@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "android-fiive"
 include ':app'
+include ':okhttpclient'

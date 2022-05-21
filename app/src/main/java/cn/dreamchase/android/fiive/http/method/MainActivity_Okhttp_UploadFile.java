@@ -1,4 +1,4 @@
-package cn.dreamchase.android.fiive;
+package cn.dreamchase.android.fiive.http.method;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -12,9 +12,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.io.IOException;
 import java.io.InputStream;
 
+import cn.dreamchase.android.fiive.R;
 import okhttp3.Call;
 import okhttp3.Callback;
-import okhttp3.FormBody;
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
 import okhttp3.OkHttpClient;
@@ -23,7 +23,7 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity_Okhttp_UploadFile extends AppCompatActivity {
 
     private OkHttpClient okHttpClient = new OkHttpClient();
 
